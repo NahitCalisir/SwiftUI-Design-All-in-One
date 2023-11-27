@@ -10,7 +10,7 @@ import SwiftUI
 struct SabitGridListele: View {
     var body: some View {
         ScrollView {
-            
+            //Scroll View ile çalışıyor
             LazyVGrid(columns: [GridItem(.flexible()),//MARK: istediğimiz kolon sayısı kadar GridItem Ekliyoruz !!!
                                 GridItem(.flexible()),
                                 GridItem(.flexible())

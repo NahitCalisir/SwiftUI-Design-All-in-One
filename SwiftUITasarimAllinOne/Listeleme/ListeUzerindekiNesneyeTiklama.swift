@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListeUzerindekiNesneyeTiklama: View {
     
-    @State private var ulkeListei2 = [Ulkeler]()
+    @State private var ulkeListei2 = [UlkeModel]()
     
     var body: some View {
         
@@ -21,10 +21,10 @@ struct ListeUzerindekiNesneyeTiklama: View {
                     }
             }
         }.onAppear {
-            var liste = [Ulkeler]()
-            liste.append(Ulkeler(ulkeAdi: "Rusya", bayrak: "flag"))
-            liste.append(Ulkeler(ulkeAdi: "Amerika", bayrak: "flag"))
-            liste.append(Ulkeler(ulkeAdi: "Çin", bayrak: "flag"))
+            var liste = [UlkeModel]()
+            liste.append(UlkeModel(ulkeAdi: "Rusya", bayrak: "flag"))
+            liste.append(UlkeModel(ulkeAdi: "Amerika", bayrak: "flag"))
+            liste.append(UlkeModel(ulkeAdi: "Çin", bayrak: "flag"))
             
             ulkeListei2 = liste
         }
@@ -34,7 +34,7 @@ struct ListeUzerindekiNesneyeTiklama: View {
 //Item Tasarımı
 struct UlketItem2: View {
     
-    var ulke = Ulkeler()
+    var ulke = UlkeModel()
     
     var body: some View {
         HStack {
@@ -48,17 +48,7 @@ struct UlketItem2: View {
         }
     }
 }
-//Ulke modelini oluştuma (identifiable yapmalıyız)
-class Ulkeler2: Identifiable {
-    var ulkeAdi: String?
-    var bayrak: String?
-    
-    init(ulkeAdi: String? = nil, bayrak: String? = nil) {
-        self.ulkeAdi = ulkeAdi
-        self.bayrak = bayrak
-    }
-}
-    
+
 
 #Preview {
     ListeUzerindekiNesneyeTiklama()

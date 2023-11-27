@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListeUzerindeKaydirma: View {
     
-    @State private var ulkeListei2 = [Ulkeler]()
+    @State private var ulkeListei2 = [UlkeModel]()
     
     var body: some View {
         
@@ -22,10 +22,10 @@ struct ListeUzerindeKaydirma: View {
             //MARK: -  KAYDIRMA İŞLEMİ İLE SİLME
             }.onDelete(perform: sil )
         }.onAppear {
-            var liste = [Ulkeler]()
-            liste.append(Ulkeler(ulkeAdi: "Rusya", bayrak: "flag"))
-            liste.append(Ulkeler(ulkeAdi: "Amerika", bayrak: "flag"))
-            liste.append(Ulkeler(ulkeAdi: "Çin", bayrak: "flag"))
+            var liste = [UlkeModel]()
+            liste.append(UlkeModel(ulkeAdi: "Rusya", bayrak: "flag"))
+            liste.append(UlkeModel(ulkeAdi: "Amerika", bayrak: "flag"))
+            liste.append(UlkeModel(ulkeAdi: "Çin", bayrak: "flag"))
             
             ulkeListei2 = liste
         }
@@ -47,23 +47,14 @@ struct ListeUzerindeKaydirma: View {
 //Item Tasarımı
 struct UlketItem3: View {
     
-    var ulke = Ulkeler()
+    var ulke = UlkeModel()
     
     var body: some View {
         
         Label(ulke.ulkeAdi!, systemImage: ulke.bayrak!)
     }
 }
-//Ulke modelini oluştuma (identifiable yapmalıyız)
-class Ulkeler3: Identifiable {
-    var ulkeAdi: String?
-    var bayrak: String?
-    
-    init(ulkeAdi: String? = nil, bayrak: String? = nil) {
-        self.ulkeAdi = ulkeAdi
-        self.bayrak = bayrak
-    }
-}
+
 
 #Preview {
     ListeUzerindeKaydirma()

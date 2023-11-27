@@ -16,6 +16,10 @@
 		9A4687402B138AD200D1A0EC /* DinamikListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46873F2B138AD200D1A0EC /* DinamikListeleme.swift */; };
 		9A4687422B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4687412B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift */; };
 		9A4687442B139B3000D1A0EC /* ListeUzerindeKaydirma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4687432B139B3000D1A0EC /* ListeUzerindeKaydirma.swift */; };
+		9A4687462B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4687452B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift */; };
+		9A4687492B14987C00D1A0EC /* UlkeDetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4687482B14987C00D1A0EC /* UlkeDetaySayfa.swift */; };
+		9A46874D2B14994C00D1A0EC /* UlkeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46874C2B14994C00D1A0EC /* UlkeModel.swift */; };
+		9A46874F2B14AF2900D1A0EC /* DinamikGridListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */; };
 		9A8DF11D2B107A8B00E37490 /* SwiftUITasarim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF11C2B107A8B00E37490 /* SwiftUITasarim.swift */; };
 		9A8DF11F2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF11E2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift */; };
 		9A8DF1212B107A8C00E37490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8DF1202B107A8C00E37490 /* Assets.xcassets */; };
@@ -44,6 +48,10 @@
 		9A46873F2B138AD200D1A0EC /* DinamikListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikListeleme.swift; sourceTree = "<group>"; };
 		9A4687412B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeUzerindekiNesneyeTiklama.swift; sourceTree = "<group>"; };
 		9A4687432B139B3000D1A0EC /* ListeUzerindeKaydirma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeUzerindeKaydirma.swift; sourceTree = "<group>"; };
+		9A4687452B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeSatiriylaSayfaGecisi.swift; sourceTree = "<group>"; };
+		9A4687482B14987C00D1A0EC /* UlkeDetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeDetaySayfa.swift; sourceTree = "<group>"; };
+		9A46874C2B14994C00D1A0EC /* UlkeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeModel.swift; sourceTree = "<group>"; };
+		9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikGridListeleme.swift; sourceTree = "<group>"; };
 		9A8DF1192B107A8B00E37490 /* SwiftUITasarimAllinOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITasarimAllinOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8DF11C2B107A8B00E37490 /* SwiftUITasarim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITasarim.swift; sourceTree = "<group>"; };
 		9A8DF11E2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTextfieldButtonKullanimi.swift; sourceTree = "<group>"; };
@@ -74,6 +82,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A4687472B14985D00D1A0EC /* ListeSatiriylaSayfaGecisi */ = {
+			isa = PBXGroup;
+			children = (
+				9A4687452B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift */,
+				9A4687482B14987C00D1A0EC /* UlkeDetaySayfa.swift */,
+			);
+			path = ListeSatiriylaSayfaGecisi;
+			sourceTree = "<group>";
+		};
+		9A4687502B14AF6700D1A0EC /* Listeleme */ = {
+			isa = PBXGroup;
+			children = (
+				9A4687512B14AF9700D1A0EC /* Model */,
+				9A4687392B136D8C00D1A0EC /* SabitListeleme.swift */,
+				9A46873B2B1374DD00D1A0EC /* SabitGridListele.swift */,
+				9A46873D2B13845E00D1A0EC /* YatayListele.swift */,
+				9A46873F2B138AD200D1A0EC /* DinamikListeleme.swift */,
+				9A4687412B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift */,
+				9A4687432B139B3000D1A0EC /* ListeUzerindeKaydirma.swift */,
+				9A4687472B14985D00D1A0EC /* ListeSatiriylaSayfaGecisi */,
+				9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */,
+			);
+			path = Listeleme;
+			sourceTree = "<group>";
+		};
+		9A4687512B14AF9700D1A0EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A46874C2B14994C00D1A0EC /* UlkeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9A8DF1102B107A8B00E37490 = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +151,7 @@
 				9A4687332B135CEA00D1A0EC /* DateTimePicker.swift */,
 				9A4687352B13642200D1A0EC /* PickerKullanimi.swift */,
 				9A4687372B1369AC00D1A0EC /* Searchable.swift */,
-				9A4687392B136D8C00D1A0EC /* SabitListeleme.swift */,
-				9A46873B2B1374DD00D1A0EC /* SabitGridListele.swift */,
-				9A46873D2B13845E00D1A0EC /* YatayListele.swift */,
-				9A46873F2B138AD200D1A0EC /* DinamikListeleme.swift */,
-				9A4687412B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift */,
-				9A4687432B139B3000D1A0EC /* ListeUzerindeKaydirma.swift */,
+				9A4687502B14AF6700D1A0EC /* Listeleme */,
 				9A8DF1202B107A8C00E37490 /* Assets.xcassets */,
 				9A8DF1222B107A8C00E37490 /* Preview Content */,
 			);
@@ -205,14 +241,18 @@
 				9A4687382B1369AC00D1A0EC /* Searchable.swift in Sources */,
 				9ACE73D12B132B84001994C5 /* AlertKullanimi.swift in Sources */,
 				9A46873E2B13845E00D1A0EC /* YatayListele.swift in Sources */,
+				9A46874F2B14AF2900D1A0EC /* DinamikGridListeleme.swift in Sources */,
+				9A4687462B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift in Sources */,
 				9A8DF1352B109A1300E37490 /* ToggleKullanimi.swift in Sources */,
 				9A4687402B138AD200D1A0EC /* DinamikListeleme.swift in Sources */,
+				9A46874D2B14994C00D1A0EC /* UlkeModel.swift in Sources */,
 				9ACE73D32B132B9B001994C5 /* ActionSheetKullanimi.swift in Sources */,
 				9A4687362B13642200D1A0EC /* PickerKullanimi.swift in Sources */,
 				9A8DF11F2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift in Sources */,
 				9ACE73D52B132BB8001994C5 /* ContextMenuKullanimi.swift in Sources */,
 				9A46873C2B1374DD00D1A0EC /* SabitGridListele.swift in Sources */,
 				9A8DF1332B10924200E37490 /* ImageKullanimi.swift in Sources */,
+				9A4687492B14987C00D1A0EC /* UlkeDetaySayfa.swift in Sources */,
 				9A8DF12D2B10837500E37490 /* TextOzellestirme.swift in Sources */,
 				9A8DF1312B108B4900E37490 /* TextFieldOzellestirme.swift in Sources */,
 				9A8DF12B2B10808900E37490 /* IndexPage.swift in Sources */,

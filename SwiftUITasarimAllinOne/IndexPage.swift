@@ -32,6 +32,8 @@ struct IndexPage: View {
     @State private var sayfa19 = false
     @State private var sayfa20 = false
     @State private var sayfa21 = false
+    @State private var sayfa22 = false
+    @State private var sayfa23 = false
     
     
     var body: some View {
@@ -123,6 +125,14 @@ struct IndexPage: View {
                         .onTapGesture {
                             sayfa21 = true
                         }
+                    Text("Lise Satırına tıklayarak sayfa geçişi")
+                        .onTapGesture {
+                            sayfa22 = true
+                        }
+                    Text("Dinamik Grid Listeleme")
+                        .onTapGesture {
+                            sayfa23 = true
+                        }
                     
                 }.listStyle(.plain)
             }.navigationTitle("Content")
@@ -188,6 +198,12 @@ struct IndexPage: View {
                 }
                 .navigationDestination(isPresented: $sayfa21) {
                     ListeUzerindeKaydirma()
+                }
+                .navigationDestination(isPresented: $sayfa22) {
+                    ListeSatiriylaSayfaGecisi()
+                }
+                .navigationDestination(isPresented: $sayfa23) {
+                    DinamikGridListeleme()
                 }
             
         }

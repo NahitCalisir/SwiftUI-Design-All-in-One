@@ -9,7 +9,7 @@ import SwiftUI
 
 struct YatayListele: View {
     var body: some View {
-        
+        //Scroll view ilw çalışıyor
         ScrollView (.horizontal) {
             LazyHStack {
                 
