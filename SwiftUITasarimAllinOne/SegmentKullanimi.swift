@@ -41,8 +41,6 @@ struct SegmentKullanimi: View {
             }
             .pickerStyle(.segmented)
             
-                
-            
             
             //TEKER ŞEKLİNDE
             Picker("Menu", selection: $segmentedDurum) {
@@ -56,7 +54,7 @@ struct SegmentKullanimi: View {
                 .frame(width: 100, height:  100)
             
             
-        }
+        }.navigationTitle("Segment")
     }
 }
 

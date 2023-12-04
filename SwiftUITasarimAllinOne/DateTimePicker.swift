@@ -45,10 +45,9 @@ struct DateTimePicker: View {
                 timeFormatter.dateFormat = "hh:mm" //küçük hh 12 saatlik dilimde gösterir
                 alinanSaat = timeFormatter.string(from: time)
 
-            }
-            
-            
+            } 
         }.padding()
+            .navigationTitle("Date & Time Picker")
     }
 }
 

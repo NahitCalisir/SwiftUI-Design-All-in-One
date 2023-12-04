@@ -1,5 +1,5 @@
 //
-//  DinamikGridListeleme.swift
+//  DinamikGridListelemeSayfaGecisi.swift
 //  SwiftUITasarimAllinOne
 //
 //  Created by Nahit Çalışır on 27.11.2023.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct DinamikGridListeleme: View {
-    
+struct DinamikGridListelemeSayfaGecisi: View {
     @State private var ulkeListesi = [UlkeModel]()
     
     var body: some View {
@@ -20,22 +19,20 @@ struct DinamikGridListeleme: View {
                 let itemGenisliği = (ekranGenisligi - 60) / 2
                 
                 VStack (alignment: .leading) {
-                    
                     HStack {
                         Image(systemName: "flag").resizable().frame(width: 70, height: 70).padding().foregroundColor(.mint).bold()
-                        Text("Dinamik\nGrid Listeleme").font(.largeTitle).foregroundStyle(.white).bold()
+                        Text("Itemla Sayfa\nGeçişi").font(.largeTitle).foregroundStyle(.white).bold()
                     }
-                    
-                    //MARK: - DİNAMİK GRİD LİSTELE
+                    //DİNAMİK GRİD LİSTELE
                     ScrollView {
                         //İstediğimiz kolon sayısı kadar GridItem ekliyoruz
                         LazyVGrid(columns: [GridItem(.flexible()),GridItem(.flexible())], spacing: 10 ){
                             ForEach(ulkeListesi) { ulke in
-                                DinamikGridItemTasarim2(ulke: ulke, genislik: itemGenisliği, yukseklik: itemGenisliği )
-                                    .onTapGesture {
-                                        print("\(ulke.ulkeAdi!) tıklandı")
-                                    }
-                                
+                                //MARK: - SAYFA GEÇİŞİ (İtem link içerisinde olacak)
+                                NavigationLink(destination: UlkeDetaySayfa(ulke: ulke)){
+                                    
+                                    DinamikGridItemTasarim(ulke: ulke, genislik: itemGenisliği, yukseklik: itemGenisliği )
+                                }
                             }.padding(10)
                         }.background(.white)
                             .cornerRadius(10)
@@ -62,7 +59,7 @@ struct DinamikGridListeleme: View {
     }
 }
 
-struct DinamikGridItemTasarim2: View {
+struct DinamikGridItemTasarim: View {
     
     var ulke = UlkeModel()
     var genislik = CGFloat() // = 0.0 da yazabilirdik
@@ -80,5 +77,5 @@ struct DinamikGridItemTasarim2: View {
 }
 
 #Preview {
-    DinamikGridListeleme()
+    DinamikGridListelemeSayfaGecisi()
 }

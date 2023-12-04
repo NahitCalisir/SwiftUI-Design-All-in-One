@@ -40,7 +40,7 @@ struct ButtonOzellestirme: View {
             .padding()
         
         
-        
+            .navigationTitle("Button Özelleştirme")
         
         
     }

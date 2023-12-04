@@ -27,7 +27,7 @@ struct PickerKullanimi: View {
             ulkeListesi.append("Türkiye")
             ulkeListesi.append("Almanya")
             ulkeListesi.append("İtalya")
-        }
+        }.navigationTitle("Picker Kullanımı")
     }
 }
 

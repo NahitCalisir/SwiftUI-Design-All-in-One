@@ -22,6 +22,7 @@ struct SilederKullanimi: View {
             
             Stepper("Shadow", value: $sliderDurum, in:  0...20)
         }.padding()
+            .navigationTitle("Slider")
     }
 }
 

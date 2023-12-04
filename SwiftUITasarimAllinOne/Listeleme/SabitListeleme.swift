@@ -42,7 +42,7 @@ struct SabitListeleme: View {
             
             
         }.navigationTitle("Sabit Listeleme")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarTitleDisplayMode(.large)
     }
 }
 

@@ -38,9 +38,7 @@ struct ContextMenuKullanimi: View {
                 Text("İptal")
             })
             
-            
-            
-        }))
+        })).navigationTitle("Context Menu")
     }
 }
 

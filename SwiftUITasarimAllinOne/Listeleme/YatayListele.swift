@@ -9,23 +9,29 @@ import SwiftUI
 
 struct YatayListele: View {
     var body: some View {
-        //Scroll view ilw çalışıyor
-        ScrollView (.horizontal) {
-            LazyHStack {
-                
-                YatayItemTasarim(resim: "sun.min", isim: "GÜneş").onTapGesture {}
-                YatayItemTasarim(resim: "moon", isim: "Ay").onTapGesture {}
-                YatayItemTasarim(resim: "star", isim: "Yıldız").onTapGesture {}
-                YatayItemTasarim(resim: "person", isim: "User").onTapGesture {}
-                YatayItemTasarim(resim: "mail", isim: "Mail").onTapGesture {}
-                YatayItemTasarim(resim: "car", isim: "Araba").onTapGesture {}
-                YatayItemTasarim(resim: "gear", isim: "Ayarlar").onTapGesture {}
-                YatayItemTasarim(resim: "trash", isim: "Çöp").onTapGesture {}
-                YatayItemTasarim(resim: "camera", isim: "Kamera").onTapGesture {}
-            }
-            .navigationTitle("Yatay Listeleme")
-                .navigationBarTitleDisplayMode(.large)
-        }.padding()
+        
+        VStack {
+            //Scroll view ilw çalışıyor
+            ScrollView (.horizontal) {
+                LazyHStack (alignment: .top) {
+                    
+                    YatayItemTasarim(resim: "sun.min", isim: "Güneş").onTapGesture {}
+                    YatayItemTasarim(resim: "moon", isim: "Ay").onTapGesture {}
+                    YatayItemTasarim(resim: "star", isim: "Yıldız").onTapGesture {}
+                    YatayItemTasarim(resim: "person", isim: "User").onTapGesture {}
+                    YatayItemTasarim(resim: "mail", isim: "Mail").onTapGesture {}
+                    YatayItemTasarim(resim: "car", isim: "Araba").onTapGesture {}
+                    YatayItemTasarim(resim: "gear", isim: "Ayarlar").onTapGesture {}
+                    YatayItemTasarim(resim: "trash", isim: "Çöp").onTapGesture {}
+                    YatayItemTasarim(resim: "camera", isim: "Kamera").onTapGesture {}
+                }
+                .navigationTitle("Yatay Listeleme")
+                    .navigationBarTitleDisplayMode(.large)
+            }.frame(height: UIScreen.main.bounds.height / 2)
+                .border(.gray, width: 5)
+            
+            Spacer()
+        }
     }
 }
 
@@ -38,10 +44,10 @@ struct YatayItemTasarim: View {
     
     var body: some View {
         VStack {
-            Image(systemName: resim)
-            Text(isim)
+            Image(systemName: resim).resizable().aspectRatio(contentMode: .fit)
+            Text(isim).font(.title).bold()
             
-        }.frame(width: UIScreen.main.bounds.width / 2.5, height: UIScreen.main.bounds.height / 3 )
+        }.frame(width: UIScreen.main.bounds.width / 1.5, height: UIScreen.main.bounds.height / 2 )
             .border(.red, width: 5)
             .background(.pink)
         

@@ -20,7 +20,7 @@
 		9A4687492B14987C00D1A0EC /* UlkeDetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4687482B14987C00D1A0EC /* UlkeDetaySayfa.swift */; };
 		9A46874D2B14994C00D1A0EC /* UlkeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46874C2B14994C00D1A0EC /* UlkeModel.swift */; };
 		9A46874F2B14AF2900D1A0EC /* DinamikGridListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */; };
-		9A8DF11D2B107A8B00E37490 /* SwiftUITasarim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF11C2B107A8B00E37490 /* SwiftUITasarim.swift */; };
+		9A8DF11D2B107A8B00E37490 /* SwiftUITasarimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF11C2B107A8B00E37490 /* SwiftUITasarimApp.swift */; };
 		9A8DF11F2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF11E2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift */; };
 		9A8DF1212B107A8C00E37490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8DF1202B107A8C00E37490 /* Assets.xcassets */; };
 		9A8DF1242B107A8C00E37490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8DF1232B107A8C00E37490 /* Preview Assets.xcassets */; };
@@ -33,9 +33,20 @@
 		9A8DF1372B109E5900E37490 /* SegmentKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF1362B109E5900E37490 /* SegmentKullanimi.swift */; };
 		9A8DF1392B10A68A00E37490 /* StepperKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF1382B10A68A00E37490 /* StepperKullanimi.swift */; };
 		9A8DF13B2B10A88000E37490 /* SilederKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DF13A2B10A88000E37490 /* SilederKullanimi.swift */; };
+		9AB403022B19DB0D002F0DDE /* InternettenResimCekme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB403012B19DB0D002F0DDE /* InternettenResimCekme.swift */; };
+		9AB403052B19EC0B002F0DDE /* BildirimKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB403042B19EC0B002F0DDE /* BildirimKullanimi.swift */; };
+		9AB403072B19F301002F0DDE /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB403062B19F301002F0DDE /* ToolBar.swift */; };
+		9AB863872B17497E00EFE5FE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB863862B17497E00EFE5FE /* NavigationBar.swift */; };
+		9AB863932B17821200EFE5FE /* TabbarSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB863922B17821200EFE5FE /* TabbarSayfa.swift */; };
+		9AB863952B17821700EFE5FE /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB863942B17821700EFE5FE /* HomePage.swift */; };
+		9AB863972B17821B00EFE5FE /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB863962B17821B00EFE5FE /* SettingsPage.swift */; };
 		9ACE73D12B132B84001994C5 /* AlertKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE73D02B132B84001994C5 /* AlertKullanimi.swift */; };
 		9ACE73D32B132B9B001994C5 /* ActionSheetKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE73D22B132B9B001994C5 /* ActionSheetKullanimi.swift */; };
 		9ACE73D52B132BB8001994C5 /* ContextMenuKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE73D42B132BB8001994C5 /* ContextMenuKullanimi.swift */; };
+		9AE168AF2B15360100B630B3 /* DinamikGridListelemeSayfaGecisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE168AE2B15360100B630B3 /* DinamikGridListelemeSayfaGecisi.swift */; };
+		9AF3100C2B1C64F900640452 /* CoreLocationKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3100B2B1C64F900640452 /* CoreLocationKullanimi.swift */; };
+		9AF3100F2B1C66AC00640452 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3100E2B1C66AC00640452 /* LocationManager.swift */; };
+		9AF310112B1C7FCD00640452 /* MapKitKullanimi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF310102B1C7FCD00640452 /* MapKitKullanimi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +64,7 @@
 		9A46874C2B14994C00D1A0EC /* UlkeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeModel.swift; sourceTree = "<group>"; };
 		9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikGridListeleme.swift; sourceTree = "<group>"; };
 		9A8DF1192B107A8B00E37490 /* SwiftUITasarimAllinOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITasarimAllinOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8DF11C2B107A8B00E37490 /* SwiftUITasarim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITasarim.swift; sourceTree = "<group>"; };
+		9A8DF11C2B107A8B00E37490 /* SwiftUITasarimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITasarimApp.swift; sourceTree = "<group>"; };
 		9A8DF11E2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTextfieldButtonKullanimi.swift; sourceTree = "<group>"; };
 		9A8DF1202B107A8C00E37490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A8DF1232B107A8C00E37490 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -66,9 +77,21 @@
 		9A8DF1362B109E5900E37490 /* SegmentKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentKullanimi.swift; sourceTree = "<group>"; };
 		9A8DF1382B10A68A00E37490 /* StepperKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperKullanimi.swift; sourceTree = "<group>"; };
 		9A8DF13A2B10A88000E37490 /* SilederKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilederKullanimi.swift; sourceTree = "<group>"; };
+		9AB403012B19DB0D002F0DDE /* InternettenResimCekme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternettenResimCekme.swift; sourceTree = "<group>"; };
+		9AB403032B19DEBC002F0DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9AB403042B19EC0B002F0DDE /* BildirimKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirimKullanimi.swift; sourceTree = "<group>"; };
+		9AB403062B19F301002F0DDE /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		9AB863862B17497E00EFE5FE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		9AB863922B17821200EFE5FE /* TabbarSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarSayfa.swift; sourceTree = "<group>"; };
+		9AB863942B17821700EFE5FE /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		9AB863962B17821B00EFE5FE /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		9ACE73D02B132B84001994C5 /* AlertKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertKullanimi.swift; sourceTree = "<group>"; };
 		9ACE73D22B132B9B001994C5 /* ActionSheetKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetKullanimi.swift; sourceTree = "<group>"; };
 		9ACE73D42B132BB8001994C5 /* ContextMenuKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuKullanimi.swift; sourceTree = "<group>"; };
+		9AE168AE2B15360100B630B3 /* DinamikGridListelemeSayfaGecisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikGridListelemeSayfaGecisi.swift; sourceTree = "<group>"; };
+		9AF3100B2B1C64F900640452 /* CoreLocationKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationKullanimi.swift; sourceTree = "<group>"; };
+		9AF3100E2B1C66AC00640452 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9AF310102B1C7FCD00640452 /* MapKitKullanimi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitKullanimi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +126,7 @@
 				9A4687432B139B3000D1A0EC /* ListeUzerindeKaydirma.swift */,
 				9A4687472B14985D00D1A0EC /* ListeSatiriylaSayfaGecisi */,
 				9A46874E2B14AF2900D1A0EC /* DinamikGridListeleme.swift */,
+				9AE168AE2B15360100B630B3 /* DinamikGridListelemeSayfaGecisi.swift */,
 			);
 			path = Listeleme;
 			sourceTree = "<group>";
@@ -134,8 +158,12 @@
 		9A8DF11B2B107A8B00E37490 /* SwiftUITasarimAllinOne */ = {
 			isa = PBXGroup;
 			children = (
-				9A8DF11C2B107A8B00E37490 /* SwiftUITasarim.swift */,
+				9AB403032B19DEBC002F0DDE /* Info.plist */,
+				9A8DF11C2B107A8B00E37490 /* SwiftUITasarimApp.swift */,
 				9A8DF12A2B10808900E37490 /* IndexPage.swift */,
+				9AB863862B17497E00EFE5FE /* NavigationBar.swift */,
+				9AB403062B19F301002F0DDE /* ToolBar.swift */,
+				9AB863982B17823000EFE5FE /* TabBar */,
 				9A8DF11E2B107A8B00E37490 /* TextTextfieldButtonKullanimi.swift */,
 				9A8DF12C2B10837500E37490 /* TextOzellestirme.swift */,
 				9A8DF12E2B10842600E37490 /* ButtonOzellestirme.swift */,
@@ -152,6 +180,9 @@
 				9A4687352B13642200D1A0EC /* PickerKullanimi.swift */,
 				9A4687372B1369AC00D1A0EC /* Searchable.swift */,
 				9A4687502B14AF6700D1A0EC /* Listeleme */,
+				9AB403012B19DB0D002F0DDE /* InternettenResimCekme.swift */,
+				9AB403042B19EC0B002F0DDE /* BildirimKullanimi.swift */,
+				9AF3100D2B1C664200640452 /* CoreLocatiıonKullanimi */,
 				9A8DF1202B107A8C00E37490 /* Assets.xcassets */,
 				9A8DF1222B107A8C00E37490 /* Preview Content */,
 			);
@@ -164,6 +195,27 @@
 				9A8DF1232B107A8C00E37490 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AB863982B17823000EFE5FE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9AB863922B17821200EFE5FE /* TabbarSayfa.swift */,
+				9AB863942B17821700EFE5FE /* HomePage.swift */,
+				9AB863962B17821B00EFE5FE /* SettingsPage.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		9AF3100D2B1C664200640452 /* CoreLocatiıonKullanimi */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3100E2B1C66AC00640452 /* LocationManager.swift */,
+				9AF3100B2B1C64F900640452 /* CoreLocationKullanimi.swift */,
+				9AF310102B1C7FCD00640452 /* MapKitKullanimi.swift */,
+			);
+			name = "CoreLocatiıonKullanimi";
+			path = "CoreLocatiıonKullNIMİ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +290,13 @@
 			files = (
 				9A8DF13B2B10A88000E37490 /* SilederKullanimi.swift in Sources */,
 				9A4687422B13986600D1A0EC /* ListeUzerindekiNesneyeTiklama.swift in Sources */,
+				9AB863932B17821200EFE5FE /* TabbarSayfa.swift in Sources */,
 				9A4687382B1369AC00D1A0EC /* Searchable.swift in Sources */,
 				9ACE73D12B132B84001994C5 /* AlertKullanimi.swift in Sources */,
+				9AB863952B17821700EFE5FE /* HomePage.swift in Sources */,
 				9A46873E2B13845E00D1A0EC /* YatayListele.swift in Sources */,
 				9A46874F2B14AF2900D1A0EC /* DinamikGridListeleme.swift in Sources */,
+				9AF310112B1C7FCD00640452 /* MapKitKullanimi.swift in Sources */,
 				9A4687462B14978C00D1A0EC /* ListeSatiriylaSayfaGecisi.swift in Sources */,
 				9A8DF1352B109A1300E37490 /* ToggleKullanimi.swift in Sources */,
 				9A4687402B138AD200D1A0EC /* DinamikListeleme.swift in Sources */,
@@ -252,17 +307,25 @@
 				9ACE73D52B132BB8001994C5 /* ContextMenuKullanimi.swift in Sources */,
 				9A46873C2B1374DD00D1A0EC /* SabitGridListele.swift in Sources */,
 				9A8DF1332B10924200E37490 /* ImageKullanimi.swift in Sources */,
+				9AF3100C2B1C64F900640452 /* CoreLocationKullanimi.swift in Sources */,
 				9A4687492B14987C00D1A0EC /* UlkeDetaySayfa.swift in Sources */,
 				9A8DF12D2B10837500E37490 /* TextOzellestirme.swift in Sources */,
 				9A8DF1312B108B4900E37490 /* TextFieldOzellestirme.swift in Sources */,
 				9A8DF12B2B10808900E37490 /* IndexPage.swift in Sources */,
 				9A8DF1392B10A68A00E37490 /* StepperKullanimi.swift in Sources */,
 				9A8DF12F2B10842600E37490 /* ButtonOzellestirme.swift in Sources */,
+				9AB863872B17497E00EFE5FE /* NavigationBar.swift in Sources */,
 				9A4687442B139B3000D1A0EC /* ListeUzerindeKaydirma.swift in Sources */,
+				9AB403052B19EC0B002F0DDE /* BildirimKullanimi.swift in Sources */,
 				9A46873A2B136D8C00D1A0EC /* SabitListeleme.swift in Sources */,
+				9AB863972B17821B00EFE5FE /* SettingsPage.swift in Sources */,
+				9AB403022B19DB0D002F0DDE /* InternettenResimCekme.swift in Sources */,
 				9A4687342B135CEA00D1A0EC /* DateTimePicker.swift in Sources */,
-				9A8DF11D2B107A8B00E37490 /* SwiftUITasarim.swift in Sources */,
+				9A8DF11D2B107A8B00E37490 /* SwiftUITasarimApp.swift in Sources */,
+				9AB403072B19F301002F0DDE /* ToolBar.swift in Sources */,
 				9A8DF1372B109E5900E37490 /* SegmentKullanimi.swift in Sources */,
+				9AE168AF2B15360100B630B3 /* DinamikGridListelemeSayfaGecisi.swift in Sources */,
+				9AF3100F2B1C66AC00640452 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +462,8 @@
 				DEVELOPMENT_TEAM = 3RY3F5L6N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITasarimAllinOne/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konum izniniz gerekiyor.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +493,8 @@
 				DEVELOPMENT_TEAM = 3RY3F5L6N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUITasarimAllinOne/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konum izniniz gerekiyor.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

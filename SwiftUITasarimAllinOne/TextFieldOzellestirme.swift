@@ -30,7 +30,10 @@ struct TextFieldOzellestirme: View {
         
         TextField("With my own style", text: $tf)
             .textFieldStyle(MyTextFieldStyle())
+        
+            .navigationTitle("Text Field Özelleştirme")
     }
+        
 }
 
 //MARK: - CREATE YOUR OWN TEXTFIELD STYLE

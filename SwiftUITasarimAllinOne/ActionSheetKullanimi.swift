@@ -31,7 +31,7 @@ struct ActionSheetKullanimi: View {
             Text("Mesaj içeriğini buraya yaz")
         }
 
-
+        .navigationTitle("Action Sheet")
     }
 }
 

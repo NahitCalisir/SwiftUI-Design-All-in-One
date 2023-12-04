@@ -28,7 +28,8 @@ struct TextOzellestirme: View {
             .onTapGesture {
                 print("Text tıklandı")
             }
-            
+            .navigationTitle("Text Özelleştirme")
+            .toolbarTitleDisplayMode(.inline)
     }
 }
 

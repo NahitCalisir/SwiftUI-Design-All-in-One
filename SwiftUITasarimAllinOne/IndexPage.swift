@@ -34,13 +34,32 @@ struct IndexPage: View {
     @State private var sayfa21 = false
     @State private var sayfa22 = false
     @State private var sayfa23 = false
-    
+    @State private var sayfa24 = false
+    @State private var sayfa25 = false
+    @State private var sayfa26 = false
+    @State private var sayfa27 = false
+    @State private var sayfa28 = false
+    @State private var sayfa29 = false
+    @State private var sayfa30 = false
+    @State private var sayfa31 = false
     
     var body: some View {
         
         NavigationStack {
             VStack {
                 List {
+                    Text("Navigation Bar Kullanımı")
+                        .onTapGesture {
+                            sayfa25 = true
+                        }
+                    Text("Tool Bar Kullanımı")
+                        .onTapGesture {
+                            sayfa26 = true
+                        }
+                    Text("Tab Bar Kullanımı")
+                        .onTapGesture {
+                            sayfa27 = true
+                        }
                     Text("Text,TextField,Button Kullanimi")
                         .onTapGesture {
                             sayfa1 = true
@@ -89,7 +108,7 @@ struct IndexPage: View {
                         .onTapGesture {
                             sayfa12 = true
                         }
-                    Text("Date & Tiem Picker Kullanımı")
+                    Text("Date & Time Picker Kullanımı")
                         .onTapGesture {
                             sayfa13 = true
                         }
@@ -133,9 +152,29 @@ struct IndexPage: View {
                         .onTapGesture {
                             sayfa23 = true
                         }
+                    Text("Dinamik Grid Listeleme Sayfa Geçişi")
+                        .onTapGesture {
+                            sayfa24 = true
+                        }
+                    Text("İnternetten Resim Çekme")
+                        .onTapGesture {
+                            sayfa28 = true
+                        }
+                    Text("Bildirim Kullanımı")
+                        .onTapGesture {
+                            sayfa29 = true
+                        }
+                    Text("Core Location Kullanımı")
+                        .onTapGesture {
+                            sayfa30 = true
+                        }
+                    Text("Map Kit Kullanımı")
+                        .onTapGesture {
+                            sayfa31 = true
+                        }
                     
                 }.listStyle(.plain)
-            }.navigationTitle("Content")
+            }.navigationTitle("SwiftUI Tasarım")
                 .navigationDestination(isPresented: $sayfa1) {
                     TextTextfieldButtonKullanimi()
                 }
@@ -201,11 +240,25 @@ struct IndexPage: View {
                 }
                 .navigationDestination(isPresented: $sayfa22) {
                     ListeSatiriylaSayfaGecisi()
-                }
-                .navigationDestination(isPresented: $sayfa23) {
+                }.navigationDestination(isPresented: $sayfa23) {
                     DinamikGridListeleme()
+                }.navigationDestination(isPresented: $sayfa24) {
+                    DinamikGridListelemeSayfaGecisi()
+                }.navigationDestination(isPresented: $sayfa25) {
+                    NavigationBar()
+                }.navigationDestination(isPresented: $sayfa26) {
+                    ToolBar()
+                }.navigationDestination(isPresented: $sayfa27) {
+                    TabbarSayfa()
+                }.navigationDestination(isPresented: $sayfa28) {
+                    InternettenResimCekme()
+                }.navigationDestination(isPresented: $sayfa29) {
+                    BildirimKullanimi()
+                }.navigationDestination(isPresented: $sayfa30) {
+                    CoreLocationKullanimi()
+                }.navigationDestination(isPresented: $sayfa31) {
+                    MapKitKullanimi()
                 }
-            
         }
     }
 }

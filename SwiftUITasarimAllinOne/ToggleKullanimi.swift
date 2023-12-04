@@ -30,7 +30,7 @@ struct ToggleKullanimi: View {
             }.toggleStyle(SwitchToggleStyle(tint: .red))
             .padding()
         
-       
+            .navigationTitle("Toogle Kullanımı")
     }
 }
 

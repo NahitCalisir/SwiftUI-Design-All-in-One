@@ -35,6 +35,7 @@ struct ImageKullanimi: View {
         Button("Resim 2") {
             resimAdi = "face.smiling.fill"
         }
+        .navigationTitle("İmage Kullanımı")
     }
 }
 

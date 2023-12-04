@@ -27,7 +27,7 @@ struct AlertKullanimi: View {
         } message: {
             Text("Mesaj içeriğini buraya yaz")
         }
-
+        .navigationTitle("Alert")
     }
 }
 
